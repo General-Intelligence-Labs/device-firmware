@@ -8,4 +8,4 @@ First public release.
 
 - Initial firmware image for the egocentric headset.
 - HTTP info endpoint reports `build: "524803e"`.
-- Ships with the `gi-flash` single-binary flasher for Linux x86_64.
+- Ships with the `gi-flash` single-binary flasher (Linux x86_64; tested on Ubuntu 24.04 LTS only — other distributions may work but are unvalidated).

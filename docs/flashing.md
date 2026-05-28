@@ -4,7 +4,8 @@ Firmware is flashed with `gi-flash`, a single-binary tool included as a release 
 
 ## Requirements
 
-- Linux x86_64 host.
+- **Linux x86_64.** `gi-flash` is a Linux-only binary; it will not run on macOS or Windows.
+- **Tested distribution: Ubuntu 24.04 LTS.** Other Linux distributions or older Ubuntu releases will likely work but have not been validated; the first-run setup step (`apt-get install`, `usermod`, udev) assumes a Debian/Ubuntu environment.
 - A USB cable that carries data (some charge-only cables won't enumerate).
 
 ## Flash

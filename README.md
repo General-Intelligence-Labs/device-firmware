@@ -16,7 +16,7 @@ Each release is a git tag of the form `<device>-v<major>.<minor>.<patch>-<source
 
 - `<tag>.img` — flashable firmware image
 - `<tag>.img.sha256` — image checksum
-- `gi-flash` — single-binary flasher (Linux x86_64)
+- `gi-flash` — single-binary flasher (Linux x86_64; tested on Ubuntu 24.04 LTS only)
 - `gi-flash.sha256` — flasher checksum
 - `SOURCES.txt` — pinned source commit + dependency SHAs for this build
 
